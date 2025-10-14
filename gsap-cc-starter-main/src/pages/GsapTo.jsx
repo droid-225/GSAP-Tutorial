@@ -5,7 +5,7 @@ const GsapTo = () => {
   // TODO: Implement the gsap.to() method
   useGSAP(() => {
     gsap.to('#blue-box', {
-      x: 250, // adds 250 to x value
+      x: 250, // adds 250 to initial x value
       repeat: -1,
       yoyo: true, // makes animation reverse on every other cycle
       rotation: 360,
